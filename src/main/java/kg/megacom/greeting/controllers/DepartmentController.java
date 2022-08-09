@@ -21,7 +21,8 @@ public class DepartmentController implements CrudMethods<Department> {
 
     @Override
     public Department getById(Long id) {
-        return null;
+        return new Department(id, "DJFHB", true);
+
     }
 
     @Override
